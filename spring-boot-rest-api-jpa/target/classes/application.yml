@@ -1,0 +1,13 @@
+server:
+    port: 8087
+
+spring: 
+    jpa: 
+        hibernet: 
+            ddl-auto: none
+        properties.hibernate.dialect: org.hibernate.dialect.MySQLDialect
+    datasource: 
+        url: jdbc:mysql://localhost:3306/our_spring_boot_app?useLegacyDatetimeCode=false&serverTimezone=America/New_York
+        username: root
+        password: npp8140060700
+        driverClassName: com.mysql.cj.jdbc.Driver
